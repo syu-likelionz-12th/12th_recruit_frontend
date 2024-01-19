@@ -1,0 +1,446 @@
+/* font-family: 'Montserrat', sans-serif; */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+/* Header-Top CSS */
+.header-top{
+    height: 70px;
+    background-color: white;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-top-logo{
+    margin-right: 50px;
+}
+.header-top-menu span{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    color: #002956;
+    font-size: 20px;
+
+    margin-right: 50px;
+}
+
+/* Header-Main CSS */
+.header-main{
+    height: 950px;
+    background-color: #002956;
+    text-align: center;
+}
+.slogan-main{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 150px;
+}
+.slogan-sub{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    color: white;
+    font-size: 26px;
+    margin: 15px;
+}
+.apply-button{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    color: #002956;
+    font-size: 24px;
+
+    width: 280px;
+    height: 62px;
+    border-radius: 6px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom:-5%;
+
+    position: relative;
+    z-index: 1;
+}
+.header-img{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-lion{
+    margin-bottom: 10px;
+}
+.header-window{
+    position: absolute;
+}
+.header-window-mobile{
+    display: none;
+}
+
+/* Track-Info CSS */
+.Track-Info-Top{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Pretendard-Regular';
+    color: #002956;
+    font-weight: 700;
+
+    position: relative;
+    z-index: 1;
+}
+
+.Track-Info-Main{
+    display: flex;
+    justify-content: center;
+}
+.Track-Box{
+    width: 385px;
+    height: 510px;
+    box-shadow: 4px 4px 10px 0px #0000001A;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.Track-Box-Img{
+    width:100%;
+    height: 350px;
+}
+.Track-Box-Detail-Title{
+    font-family: 'Pretendard-Regular';
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    color: #002956;
+    margin: 0px;
+}
+.Track-Box-Detail-Ex{
+    font-family: 'Pretendard-Regular';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+/* Activity CSS */
+.Activity{
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    margin: auto;
+}
+.Activity-Ex{
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 26px;
+    color: #002956;
+
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.Activity-Box{
+    width: 1180px;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.Activity-Box-Img{
+    width: 590px;
+    height: 290px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.Activity-Box-Detail{   
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Activity-Box-Detail-Title{
+    font-family: 'Pretendard-Regular';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+    color: #363636;
+
+    margin-bottom: 30px;
+}
+.Activity-Box-Detail-Title span{
+    color: #4A9BF6;
+}
+.Activity-Box-Detail-Ex{
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #363636;
+
+    margin-bottom: 30px;
+}
+.Activity-Box-Detail-Schedule{
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Activity-Box-Detail-Schedule span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.Activity-Box-Detail-Schedule p{
+    margin: 5px;
+}
+
+/* FAQ CSS */
+.FAQ-Title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #4A9BF6;
+
+    margin: 10px;
+}
+.FAQ-Subtitle{
+    font-family: 'Pretendard-Regular';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #363636;
+
+    margin: 0px;
+}
+.FAQ{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    font-family: 'Pretendard-Regular';
+    font-weight: 500;
+    margin-top:75px;
+}
+.qna-box{
+    margin-bottom: 15px;
+}
+.Accordian_wrap *{
+    box-sizing: border-box; 
+}
+.que{
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 19px;
+    line-height: 24px;
+    border: 1px solid #D6D6D6;
+    border-radius: 6px;
+    color: #363636;
+}
+.que::before{
+    display: inline-block;
+    font-size: 19px;
+    line-height: 24px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.que.on{
+    background-color: #4A9BF6;
+    border: 1px solid #4A9BF6;
+    border-top-left-radius: 6px; 
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.que.on>span, .arrow-top{
+    color: #FFFFFF;
+}
+.anw {
+    margin-top: -1px;
+    display: none;
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 21px;
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #4A9BF6;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.anw::before {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0 5px;
+}
+.arrow-wrap {
+    position: absolute;
+    top:50%; right: 10px;
+    transform: translate(0, -50%);
+}
+.que .arrow-top {
+    display: none;
+}
+.que .arrow-bottom {
+    display: block;
+}
+.que.on .arrow-bottom {
+    display: none;
+}
+.que.on .arrow-top {
+    display: block; 
+}
+
+/* 모바일 */
+@media (max-width:767px){
+    body{
+        margin: 0px;
+    }
+    .header-top{
+        display: none;
+    }
+    .header-main{
+        width: 100%;
+    }
+    .slogan-main span{
+        display: block;
+    }
+    .slogan-main, .slogan-main span{
+        text-align: center;
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 65px;
+    }
+    .slogan-sub{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    .header-img{
+        width: 100%;
+    }
+    .header-lion{
+        width: 100%;
+        margin-top: -70px;
+    }
+    .header-window{ 
+        display: none;
+    }
+    .Track-Info-Top{
+        width: 100.5%;
+        padding-top: 40px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        margin-top: -165px;
+        height: 130px;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+        font-size: 1.2rem;
+    }
+    .Track-Info-Main{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Track-Box{
+        width: 80%;
+        height: 450px;
+        margin: 15px;
+    }
+    .Track-Box-Img{
+        width: 100%;
+        height: 250px;
+    }
+    .Track-Box-Detail-Ex{
+        margin: 5px;
+    }
+
+    .Activity-Ex{
+        margin-top: 60px;
+    }
+    .Activity{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 70%;
+    }
+    .Activity-Box{
+        height: 580px;
+        margin-bottom: 20px;
+    }
+    .Activity-Box-Img{
+        margin: auto;
+        width: 90%;
+    }
+    #Activity-Box-A{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    #Activity-Box-B{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .FAQ{
+        display: none;
+    }
+}
+
+@media (max-width:410px){
+    .Track-Info-Top{
+        width: 100.5%;
+        padding-top: 40px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        margin-top: -175px;
+        height: 150px;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:395px){
+    .Track-Info-Top{
+        width: 100.5%;
+        padding-top: 40px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+        margin-top: -190px;
+        height: 160px;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+        font-size: 1.2rem;
+    }
+} 
