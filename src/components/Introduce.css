@@ -1,18 +1,19 @@
 .container{
     position: relative;
-    width: 1536px;
+    width: 100%;
     height: 317px;
     
     background: #FDFDFD;
 
 }
 
-
+main{
+    width: 100%;
+}
 .head-box {
     width: 414px;
     height: 40px;
-    margin-top: 40px;
-    margin-left: 800px;
+    margin-left: 400px;
 }
 
 .head-text {
